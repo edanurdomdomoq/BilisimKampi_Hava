@@ -1,0 +1,29 @@
+# Gradle and generated build files
+.gradle/
+.kotlin/
+**/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+
+# Local IDE and SDK configuration
+.idea/
+*.iml
+local.properties
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local credentials and signing material
+.env
+.env.*
+*.jks
+*.keystore
+keystore.properties
+
+# Generated app packages and logs
+*.apk
+*.aab
+*.log
